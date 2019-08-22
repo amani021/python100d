@@ -1,11 +1,3 @@
-#-------- DAY 1 "print" --------
-# print("Hello, World!")
-# #exit()
-#
-# if 5 > 2:
-#     print("Five is greater than two!")
-
-
 #-------- DAY 2 "comments" --------
 '''
 Comments have 2 ways to write:
