@@ -9,7 +9,7 @@ print(type(a))
 print(type(b))
 print(type(c))
 print(type(d))
-print("\n3- You can convert from int or float to other types BUT you can't convert the complix type to another one")
+print("\n3- You can convert from int or float to other types BUT you can't convert the complex type to another one")
 #Convert the type inside print function
 print(float(a)) #From int to float
 print(complex(b)) #From float to complex
