@@ -1,6 +1,6 @@
-#-------- DAY 7 "string" --------
+#-------- DAY 7 "strings 1" --------
 #Eg. for point number 2
-print("Lesson 7: String")
+print("Lesson 7: Strings 1")
 #Eg. for point number 4 (use single quotation)
 x = '''As we learned beginning, here in this lesson,
 we will talk some of those informations as a confirmation for us'''
