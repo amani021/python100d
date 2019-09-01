@@ -18,7 +18,7 @@ The list is:"""
 print(stmt1.format(list1[0] + list1[2]))
 for num in list2:
     print(num)
-stmt2 = """I don't like a number with negative sign, so I will change them to {} and {}
+stmt2 = """I don't like a number with negative sign, so I will change them.
 Ummm.. also, float numbers I will remove it >.<
 Finally :D, the two lists are:
 List 1 = NameError: name 'list1' is not defined
@@ -26,4 +26,4 @@ List 2 = {}"""
 list2[0], list2[4] = 32, 7 #The list will be: [32, 43, 2.54, 90, 7, 342]
 del list2[2]
 #del list1 #Will make an error
-print(stmt2.format(list2[0], list2[4], list2))
+print(stmt2.format(list2))
