@@ -13,4 +13,4 @@ class science_section(library):
 
 # obj1 = library(45, 300)
 obj2 = science_section(45, 300, 'Physiscs books')
-print('The library have', obj2.shelf, 'shelves which contain', obj2.book, obj2.name)
+print('The library has', obj2.shelf, 'shelves which contain', obj2.book, obj2.name)
