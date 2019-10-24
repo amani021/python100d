@@ -1,9 +1,9 @@
 #-------- DAY 64 "try-except" --------
 print("Lesson 64: Try-Except")
-try:
-    print(name) #Will rais an error!!
-except:
-    print('An exception occurred!!')
+# try:
+#     print(name) #Will rais an error!!
+# except:
+#     print('An exception occurred!!')
 
 # try:
 #     print(name) #Will rais an error!!
@@ -19,9 +19,9 @@ except:
 # else:
 #     print('Nothing went wrong')
 
-# try:
-#     print('Hello World')
-# except:
-#     print('Something went wrong')
-# finally:
-#     print("The 'try except' is finished")
+try:
+    print('Hello World')
+except:
+    print('Something went wrong')
+finally:
+    print("The 'try except' is finished")
