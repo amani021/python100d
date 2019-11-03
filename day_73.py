@@ -31,9 +31,31 @@ mycursor = mydb.cursor()
 # for x in myresult:
 #     print(x)
 #Creating tables
-
-# createTable()
-# print('Successfully!!')
+def createTable():
+    # mycursor.execute("CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), fav VARCHAR(255))")
+    # sql = "INSERT INTO users (name, fav) VALUES (%s, %s)"
+    # val = [
+    #     ('Peter', '166'),
+    #     ('Hannah', '156'),
+    #     ('Betty', ''),
+    #     ('Susan', '166'),
+    #     ('Viola', '')
+    # ]
+    # mycursor.executemany(sql, val)
+    # mydb.commit()
+    # print(mycursor.rowcount, "record was inserted.")
+    # mycursor.execute("CREATE TABLE products (id VARCHAR(255), name VARCHAR(255))")
+    # sql = "INSERT INTO products (id, name) VALUES (%s, %s)"
+    # val = [
+    #     ('166', 'Chocolate Heaven'),
+    #     ('156', 'Tasty Lemons'),
+    #     ('146', 'Vanilla Dreams')
+    # ]
+    # mycursor.executemany(sql, val)
+    # mydb.commit()
+    # print(mycursor.rowcount, "record was inserted.")
+createTable()
+print('Successfully!!')
 # 3. (Inner / Left / Right) Join
 def innerJoin():
     print("---------------------\nInner join:")
