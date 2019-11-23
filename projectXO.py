@@ -69,7 +69,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button4["text"]=="X" and button5["text"]=="X" and button6["text"]=="X"):
         button4.configure(background="powder blue")
         button5.configure(background="powder blue")
@@ -77,7 +77,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button7["text"]=="X" and button8["text"]=="X" and button9["text"]=="X"):
         button7.configure(background="powder blue")
         button8.configure(background="powder blue")
@@ -85,7 +85,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button1["text"]=="X" and button4["text"]=="X" and button7["text"]=="X"):
         button1.configure(background="powder blue")
         button4.configure(background="powder blue")
@@ -93,7 +93,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button2["text"]=="X" and button5["text"]=="X" and button8["text"]=="X"):
         button2.configure(background="powder blue")
         button5.configure(background="powder blue")
@@ -101,7 +101,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button3["text"]=="X" and button6["text"]=="X" and button9["text"]=="X"):
         button3.configure(background="powder blue")
         button6.configure(background="powder blue")
@@ -109,7 +109,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button1["text"]=="X" and button5["text"]=="X" and button9["text"]=="X"):
         button1.configure(background="powder blue")
         button5.configure(background="powder blue")
@@ -117,7 +117,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
     if (button3["text"]=="X" and button5["text"]=="X" and button7["text"]=="X"):
         button3.configure(background="powder blue")
         button5.configure(background="powder blue")
@@ -125,7 +125,7 @@ def scorekeeper():
         n = playerX.get()
         score = (n + 1)
         playerX.set(score)
-        tkinter.messagebox.showinfo("Winner X", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER X IS WINNER !!")
 
     if (button1["text"]=="O" and button2["text"]=="O" and button3["text"]=="O"):
         button1.configure(background="pink")
@@ -134,7 +134,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button4["text"]=="O" and button5["text"]=="O" and button6["text"]=="O"):
         button4.configure(background="pink")
         button5.configure(background="pink")
@@ -142,7 +142,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button7["text"]=="O" and button8["text"]=="O" and button9["text"]=="O"):
         button7.configure(background="pink")
         button8.configure(background="pink")
@@ -150,7 +150,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button1["text"]=="O" and button4["text"]=="O" and button7["text"]=="O"):
         button1.configure(background="pink")
         button4.configure(background="pink")
@@ -158,7 +158,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button2["text"]=="O" and button5["text"]=="O" and button8["text"]=="O"):
         button2.configure(background="pink")
         button5.configure(background="pink")
@@ -166,7 +166,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button3["text"]=="O" and button6["text"]=="O" and button9["text"]=="O"):
         button3.configure(background="pink")
         button6.configure(background="pink")
@@ -174,7 +174,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button1["text"]=="O" and button5["text"]=="O" and button9["text"]=="O"):
         button1.configure(background="pink")
         button5.configure(background="pink")
@@ -182,7 +182,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
     if (button3["text"]=="O" and button5["text"]=="O" and button7["text"]=="O"):
         button3.configure(background="pink")
         button5.configure(background="pink")
@@ -190,7 +190,7 @@ def scorekeeper():
         n = playerO.get()
         score = (n + 1)
         playerO.set(score)
-        tkinter.messagebox.showinfo("Winner O", "YOU'RE WINNER !!")
+        tkinter.messagebox.showinfo("Winner", "PLAYER O IS WINNER !!")
 
 def reset():
     button1["text"] = " "
@@ -218,12 +218,18 @@ def newGame():
     playerX.set(0)
     playerO.set(0)
 
+def quit():
+    root.quit()
+
 #--------------- BUTTONS ---------------
 btnReset = Button(RightFrame2, text="Reset", font=('arial 26 bold'), height=1, width=18, command=reset)
 btnReset.grid(row=2, column=0, padx=5, pady=7)
 
 btnNewGame = Button(RightFrame2, text="New Game", font=('arial 26 bold'), height=1, width=18, command=newGame)
 btnNewGame.grid(row=3, column=0, padx=5, pady=7)
+
+btnQuit = Button(RightFrame2, text="Quit", font=('arial 26 bold'), height=1, width=18, command=quit)
+btnQuit.grid(row=4, column=0, padx=5, pady=7)
 
 #--------------- SQUARES BUTTONS # ---------------
 button1 = Button(LeftFrame, text=" ", font=('Times 26 bold'), height=3, width=8, bg='gainsboro', command=lambda:check(button1))
